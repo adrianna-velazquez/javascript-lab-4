@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel=stylesheet href="style.css">
+</head>
+<body>
+    <section class="button-container">
+        <p class="total">Total:</p>
+        <button class="money" data-amount="2">Lime Cola $2.00</button>
+        <button class="money" data-amount="3">Salted Peanuts $3.00</button>
+        <button class="money" data-amount="4">Chocolate Bar $4.00</button>
+        <button class="money" data-amount="6">Fruit Gummies $6.00</button>
+    </section>
+    <section class="right">
+    <form class="make-money">
+        <label for="quantity"> How many? </label>
+        <input type="number" id="quantity" name="quantity">
+        <label for="coin">Which coin?</label>
+        <select name="coin" id="coin">
+            <option value="Penny">Penny</option>
+            <option value="Nickle">Nickel</option>
+            <option value="Dime">Dime</option>
+            <option value="Quarter">Quarter</option>
+        </select>
+        <button class="submit">Make Money!</button>
+        </form>
+        <div class="coin-container"></div>
+    </section>
+    <section>
+        <div class="bulb"></div>
+        <button class="on switch">On</button>
+        <button class="off switch">Off</button>
+        <button class="toggle switch">Toggle</button>
+        <button class="end switch">End</button>
+    </section>
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
